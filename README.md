@@ -65,7 +65,7 @@ cf push helloworld --no-route -i 0  -p HelloWorld.jar
 
 Note:  We deploy with no default routes created, and with 0 initial instance running.  
 
-> *Discussion Item* : long runnings instances vs one-off "jobs , including cost considerations
+> **Discussion Item** : long runnings instances vs one-off "jobs , including cost considerations
 
 # 6. Run your Helloworld Task one-off in PCF as a task 
 
@@ -82,7 +82,7 @@ Task should be submitted successfully for execution.
 cf tasks helloworld
 ```
 
-> *Discussion Item* : Viewing task in the PCF GUI
+> **Discussion Item** : Viewing task in the PCF GUI
 
 # 8. Inspect the PCF logs for succesful execution 
 
@@ -121,5 +121,5 @@ Cron Expressions: *\*/1 \* ? \* \**
 
 <img src="img/createjob.png" width="400">
 
-> *Discussion Items* : manully running the job , jobs vs tasks
+> **Discussion Items** : manully running the job , jobs vs tasks
 
