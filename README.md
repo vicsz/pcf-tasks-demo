@@ -114,9 +114,12 @@ Click on the now available *Create Job* button.
 For testing purposes, we will be running our Helloworld Message every minute. 
 
 Job Name: *Helloworld Every Minute*
+
 Command: *.java-buildpack/open_jdk_jre/bin/java HelloWorld*
+
 Cron Expressions: *\*/1 \* ? \* \**
 
-<img src="img/addjob.png" width="800">
+<img src="img/createjob.png" width="800">
 
 **Discussion Item : manully running the job , jobs vs tasks**
+
