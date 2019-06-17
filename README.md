@@ -65,7 +65,7 @@ cf push helloworld --no-route -i 0  -p HelloWorld.jar
 
 Note:  We deploy with no default routes created, and with 0 initial instance running.  
 
-> **Discussion Item** : long runnings instances vs one-off "jobs , including cost considerations
+> **Discussion Item** : long runnings instances vs one-off "jobs , including cost considerations and use cases
 
 # 6. Run your Helloworld Task one-off in PCF as a task 
 
