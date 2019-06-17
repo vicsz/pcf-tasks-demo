@@ -123,3 +123,8 @@ Cron Expressions: *\*/1 \* ? \* \**
 
 > **Discussion Items** : manully running the job , jobs vs tasks
 
+# 12. Clean up your PCF environment by deleting your Helloworld Application 
+
+```sh
+cf delete helloworld
+```
