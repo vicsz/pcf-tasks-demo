@@ -119,7 +119,7 @@ Command: *.java-buildpack/open_jdk_jre/bin/java HelloWorld*
 
 Cron Expressions: *\*/1 \* ? \* \**
 
-<img src="img/createjob.png" width="800">
+<img src="img/createjob.png">
 
 **Discussion Item : manully running the job , jobs vs tasks**
 
